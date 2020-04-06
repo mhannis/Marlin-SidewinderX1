@@ -3,4 +3,4 @@ Working configuration files for the Sidewinder X1 modded with the Hemera, TMC220
 
 Will continue to add Marlin releases and new configurations as necessary. Always looking for area's of improvement.
 
-Will also look to share slicing profiles for this configuration.
+Also planning on providing slicing profiles for this setup.
