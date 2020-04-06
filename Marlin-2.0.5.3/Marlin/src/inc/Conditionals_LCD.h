@@ -577,15 +577,8 @@
 #endif
 
 #if HAS_BED_PROBE
-  #if DISABLED(NOZZLE_AS_PROBE)
-    #define HAS_PROBE_XY_OFFSET 1
-  #endif
-  #if DISABLED(Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN)
-    #define HAS_CUSTOM_PROBE_PIN 1
-  #endif
-  #if Z_HOME_DIR < 0 && !HAS_CUSTOM_PROBE_PIN
-    #define HOMING_Z_WITH_PROBE 1
-  #endif
+#define HAS_CUSTOM_PROBE_PIN 1
+#define HOMING_Z_WITH_PROBE 1
   #ifndef Z_PROBE_LOW_POINT
     #define Z_PROBE_LOW_POINT -5
   #endif
